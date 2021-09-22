@@ -72,42 +72,42 @@ cnvgl = {
 
 
 
-include('cnvGL/defines.js');
+@@include('./defines.js')
 
-include('cnvGL/objects/attrib_array_object.js');
-include('cnvGL/objects/buffer.js');
-include('cnvGL/objects/context.js');
-include('cnvGL/objects/context_shared.js');
-include('cnvGL/objects/framebuffer.js');
-include('cnvGL/objects/program.js');
-include('cnvGL/objects/shader.js');
-include('cnvGL/objects/renderbuffer.js');
-include('cnvGL/objects/texture.js');
+@@include('./objects/attrib_array_object.js')
+@@include('./objects/buffer.js')
+@@include('./objects/context.js')
+@@include('./objects/context_shared.js')
+@@include('./objects/framebuffer.js')
+@@include('./objects/program.js')
+@@include('./objects/shader.js')
+@@include('./objects/renderbuffer.js')
+@@include('./objects/texture.js')
 
-include('cnvGL/functions/blend.js');
-include('cnvGL/functions/bufferobj.js');
-include('cnvGL/functions/clear.js');
-include('cnvGL/functions/context.js');
-include('cnvGL/functions/depth.js');
-include('cnvGL/functions/draw.js');
-include('cnvGL/functions/enable.js');
-include('cnvGL/functions/fbobject.js');
-include('cnvGL/functions/get.js');
-include('cnvGL/functions/hint.js');
-include('cnvGL/functions/lines.js');
-include('cnvGL/functions/multisample.js');
-include('cnvGL/functions/pixelstore.js');
-include('cnvGL/functions/polygon.js');
-include('cnvGL/functions/scissor.js');
-include('cnvGL/functions/shaderapi.js');
-include('cnvGL/functions/stencil.js');
-include('cnvGL/functions/teximage.js');
-include('cnvGL/functions/texobj.js');
-include('cnvGL/functions/texparam.js');
-include('cnvGL/functions/texstate.js');
-include('cnvGL/functions/uniforms.js');
-include('cnvGL/functions/varray.js');
-include('cnvGL/functions/viewport.js');
+@@include('./functions/blend.js')
+@@include('./functions/bufferobj.js')
+@@include('./functions/clear.js')
+@@include('./functions/context.js')
+@@include('./functions/depth.js')
+@@include('./functions/draw.js')
+@@include('./functions/enable.js')
+@@include('./functions/fbobject.js')
+@@include('./functions/get.js')
+@@include('./functions/hint.js')
+@@include('./functions/lines.js')
+@@include('./functions/multisample.js')
+@@include('./functions/pixelstore.js')
+@@include('./functions/polygon.js')
+@@include('./functions/scissor.js')
+@@include('./functions/shaderapi.js')
+@@include('./functions/stencil.js')
+@@include('./functions/teximage.js')
+@@include('./functions/texobj.js')
+@@include('./functions/texparam.js')
+@@include('./functions/texstate.js')
+@@include('./functions/uniforms.js')
+@@include('./functions/varray.js')
+@@include('./functions/viewport.js')
 
-include('cnvGL/includes/memory.js');
+@@include('./includes/memory.js')
 

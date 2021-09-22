@@ -405,6 +405,3 @@ proto.viewport = function(ctx, x, y, w, h) {
 	this.command('set', 'viewportH', h);
 };
 
-
-include('external/jsgpu/gpu.js');
-
