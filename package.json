@@ -1,10 +1,9 @@
 {
-  "name": "cwebgl",
+  "name": "cnvgl",
   "version": "0.1.0",
   "description": "",
   "author": "Cimaron Shanahan",
-  "license": "MIT License",
-  "main": "build/cwebgl.js",
+  "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "del": "^0.1.3",
